@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class ece448.iot_hub.GroupsTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class ece448.iot_hub.GroupsTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/ece448.iot_hub.html">ece448.iot_hub</a> &gt; GroupsTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.967s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test10_grpnamewithdecimal</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test1_groupnull</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2_postgroup</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test3_getemptygroup</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test4_groupmembers</td>
+<td class="success">0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test5_groupwithmemberlist</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test6_makegroup</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test7_groupaction_on</td>
+<td class="success">0.034s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test8_groupaction_toggle</td>
+<td class="success">0.882s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test9_removegroup</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2024-05-02 14:34:36,594 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,630 INFO Group G1: action toggle, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,633 INFO  Plug p Publishing... 
+2024-05-02 14:34:36,640 ERROR MqttCtl iot_hub: iot_ece448/action/p/toggle fail to publish
+2024-05-02 14:34:36,642 INFO  Plug p Published
+2024-05-02 14:34:36,644 INFO  Plug q Publishing... 
+2024-05-02 14:34:36,645 ERROR MqttCtl iot_hub: iot_ece448/action/q/toggle fail to publish
+2024-05-02 14:34:36,647 INFO  Plug q Published
+2024-05-02 14:34:36,647 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,648 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+2024-05-02 14:34:36,651 INFO Group B: created [x, y, z]
+2024-05-02 14:34:36,655 INFO Group details {members=[], name=GP1}:
+2024-05-02 14:34:36,658 INFO Groups: []
+2024-05-02 14:34:36,661 INFO Groups: []
+2024-05-02 14:34:36,663 INFO Group B: removed
+2024-05-02 14:34:36,665 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,667 INFO Group G1: action on, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,671 INFO  Plug p Publishing... 
+2024-05-02 14:34:36,674 ERROR MqttCtl iot_hub: iot_ece448/action/p/on fail to publish
+2024-05-02 14:34:36,676 INFO  Plug p Published
+2024-05-02 14:34:36,679 INFO  Plug q Publishing... 
+2024-05-02 14:34:36,682 ERROR MqttCtl iot_hub: iot_ece448/action/q/on fail to publish
+2024-05-02 14:34:36,686 INFO  Plug q Published
+2024-05-02 14:34:36,691 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,694 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+2024-05-02 14:34:36,695 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,698 INFO Group details {members=[], name=A}:
+2024-05-02 14:34:36,701 INFO Group A: null
+{members=[], name=A}
+2024-05-02 14:34:36,710 INFO PlugMap: [{name=x, state=null, power=null}, {name=y, state=null, power=null}]
+2024-05-02 14:34:36,712 INFO Group details {members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}:
+2024-05-02 14:34:36,723 INFO Groups: [{members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}]
+2024-05-02 14:34:36,736 INFO PlugMap: [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,737 INFO Group osf.86d: action off, [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,739 INFO  Plug w Publishing... 
+2024-05-02 14:34:36,740 ERROR MqttCtl iot_hub: iot_ece448/action/w/off fail to publish
+2024-05-02 14:34:36,741 INFO  Plug w Published
+2024-05-02 14:34:36,741 INFO PlugMap: [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,741 INFO Group details {members=[{name=w, state=null, power=null}], name=osf.86d}:
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 8.7</a> at May 2, 2024, 2:34:38 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ece448.iot_hub.MqttControllerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-05-02T19:34:36" hostname="ECE448" time="0.785">
+  <properties/>
+  <testcase name="testpowers" classname="ece448.iot_hub.MqttControllerTests" time="0.002"/>
+  <testcase name="teststates" classname="ece448.iot_hub.MqttControllerTests" time="0.005"/>
+  <testcase name="testinit" classname="ece448.iot_hub.MqttControllerTests" time="0.004"/>
+  <testcase name="testsettersequals" classname="ece448.iot_hub.MqttControllerTests" time="0.002"/>
+  <testcase name="teststartclose" classname="ece448.iot_hub.MqttControllerTests" time="0.758"/>
+  <testcase name="testhandleupdate" classname="ece448.iot_hub.MqttControllerTests" time="0.004"/>
+  <testcase name="testinvalidinput" classname="ece448.iot_hub.MqttControllerTests" time="0.003"/>
+  <system-out><![CDATA[2024-05-02 14:34:37,513 INFO MqttCtl iot_hub: tcp://127.0.0.1 connected
+2024-05-02 14:34:37,520 INFO MqttCtl iot_hub: disconnected
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

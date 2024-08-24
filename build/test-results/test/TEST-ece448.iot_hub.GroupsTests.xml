@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ece448.iot_hub.GroupsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-02T19:34:35" hostname="ECE448" time="0.973">
+  <properties/>
+  <testcase name="test8_groupaction_toggle" classname="ece448.iot_hub.GroupsTests" time="0.882"/>
+  <testcase name="test2_postgroup" classname="ece448.iot_hub.GroupsTests" time="0.002"/>
+  <testcase name="test6_makegroup" classname="ece448.iot_hub.GroupsTests" time="0.006"/>
+  <testcase name="test4_groupmembers" classname="ece448.iot_hub.GroupsTests" time="0.0"/>
+  <testcase name="test3_getemptygroup" classname="ece448.iot_hub.GroupsTests" time="0.002"/>
+  <testcase name="test9_removegroup" classname="ece448.iot_hub.GroupsTests" time="0.001"/>
+  <testcase name="test7_groupaction_on" classname="ece448.iot_hub.GroupsTests" time="0.034"/>
+  <testcase name="test1_groupnull" classname="ece448.iot_hub.GroupsTests" time="0.011"/>
+  <testcase name="test5_groupwithmemberlist" classname="ece448.iot_hub.GroupsTests" time="0.023"/>
+  <testcase name="test10_grpnamewithdecimal" classname="ece448.iot_hub.GroupsTests" time="0.006"/>
+  <system-out><![CDATA[2024-05-02 14:34:36,594 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,630 INFO Group G1: action toggle, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,633 INFO  Plug p Publishing... 
+2024-05-02 14:34:36,640 ERROR MqttCtl iot_hub: iot_ece448/action/p/toggle fail to publish
+2024-05-02 14:34:36,642 INFO  Plug p Published
+2024-05-02 14:34:36,644 INFO  Plug q Publishing... 
+2024-05-02 14:34:36,645 ERROR MqttCtl iot_hub: iot_ece448/action/q/toggle fail to publish
+2024-05-02 14:34:36,647 INFO  Plug q Published
+2024-05-02 14:34:36,647 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,648 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+2024-05-02 14:34:36,651 INFO Group B: created [x, y, z]
+2024-05-02 14:34:36,655 INFO Group details {members=[], name=GP1}:
+2024-05-02 14:34:36,658 INFO Groups: []
+2024-05-02 14:34:36,661 INFO Groups: []
+2024-05-02 14:34:36,663 INFO Group B: removed
+2024-05-02 14:34:36,665 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,667 INFO Group G1: action on, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,671 INFO  Plug p Publishing... 
+2024-05-02 14:34:36,674 ERROR MqttCtl iot_hub: iot_ece448/action/p/on fail to publish
+2024-05-02 14:34:36,676 INFO  Plug p Published
+2024-05-02 14:34:36,679 INFO  Plug q Publishing... 
+2024-05-02 14:34:36,682 ERROR MqttCtl iot_hub: iot_ece448/action/q/on fail to publish
+2024-05-02 14:34:36,686 INFO  Plug q Published
+2024-05-02 14:34:36,691 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,694 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+2024-05-02 14:34:36,695 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+2024-05-02 14:34:36,698 INFO Group details {members=[], name=A}:
+2024-05-02 14:34:36,701 INFO Group A: null
+{members=[], name=A}
+2024-05-02 14:34:36,710 INFO PlugMap: [{name=x, state=null, power=null}, {name=y, state=null, power=null}]
+2024-05-02 14:34:36,712 INFO Group details {members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}:
+2024-05-02 14:34:36,723 INFO Groups: [{members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}]
+2024-05-02 14:34:36,736 INFO PlugMap: [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,737 INFO Group osf.86d: action off, [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,739 INFO  Plug w Publishing... 
+2024-05-02 14:34:36,740 ERROR MqttCtl iot_hub: iot_ece448/action/w/off fail to publish
+2024-05-02 14:34:36,741 INFO  Plug w Published
+2024-05-02 14:34:36,741 INFO PlugMap: [{name=w, state=null, power=null}]
+2024-05-02 14:34:36,741 INFO Group details {members=[{name=w, state=null, power=null}], name=osf.86d}:
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

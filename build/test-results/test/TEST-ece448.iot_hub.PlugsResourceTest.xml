@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ece448.iot_hub.PlugsResourceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-05-02T19:34:37" hostname="ECE448" time="0.026">
+  <properties/>
+  <testcase name="testPlugSwitchOn" classname="ece448.iot_hub.PlugsResourceTest" time="0.008"/>
+  <testcase name="testPublish" classname="ece448.iot_hub.PlugsResourceTest" time="0.002"/>
+  <testcase name="testGetPlugwithtoggle" classname="ece448.iot_hub.PlugsResourceTest" time="0.003"/>
+  <testcase name="testPlugSwitchOff" classname="ece448.iot_hub.PlugsResourceTest" time="0.001"/>
+  <testcase name="testgetAllPlugs" classname="ece448.iot_hub.PlugsResourceTest" time="0.004"/>
+  <testcase name="testplugwithnull" classname="ece448.iot_hub.PlugsResourceTest" time="0.004"/>
+  <testcase name="testGetAllThePlugsEmpty" classname="ece448.iot_hub.PlugsResourceTest" time="0.001"/>
+  <system-out><![CDATA[2024-05-02 14:34:37,541 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/plug1/on fail to publish
+2024-05-02 14:34:37,544 INFO plug plug1: {name=plug1, state=off, power=null}
+2024-05-02 14:34:37,548 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/p/on fail to publish
+2024-05-02 14:34:37,549 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/a/toggle fail to publish
+2024-05-02 14:34:37,551 INFO plug a: {name=a, state=off, power=null}
+2024-05-02 14:34:37,552 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/p/off fail to publish
+2024-05-02 14:34:37,553 INFO plug p: {name=p, state=on, power=null}
+2024-05-02 14:34:37,561 INFO plugss a: {name=a, state=on, power=837}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

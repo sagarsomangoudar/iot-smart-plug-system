@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ece448.iot_sim.PlugSimTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2024-05-02T19:34:37" hostname="ECE448" time="0.054">
+  <properties/>
+  <testcase name="testgetName" classname="ece448.iot_sim.PlugSimTests" time="0.003"/>
+  <testcase name="testmeasurePowerValue1" classname="ece448.iot_sim.PlugSimTests" time="0.006"/>
+  <testcase name="testmeasurePowerValue2" classname="ece448.iot_sim.PlugSimTests" time="0.007"/>
+  <testcase name="testmeasurePowerValue3" classname="ece448.iot_sim.PlugSimTests" time="0.001"/>
+  <testcase name="testSwitchOff" classname="ece448.iot_sim.PlugSimTests" time="0.003"/>
+  <testcase name="testgetPower" classname="ece448.iot_sim.PlugSimTests" time="0.003"/>
+  <testcase name="testInit" classname="ece448.iot_sim.PlugSimTests" time="0.008"/>
+  <testcase name="testname" classname="ece448.iot_sim.PlugSimTests" time="0.004"/>
+  <testcase name="testmeasureZeroPower" classname="ece448.iot_sim.PlugSimTests" time="0.003"/>
+  <testcase name="testSwitchOn" classname="ece448.iot_sim.PlugSimTests" time="0.006"/>
+  <testcase name="testToggle" classname="ece448.iot_sim.PlugSimTests" time="0.007"/>
+  <system-out><![CDATA[2024-05-02 14:34:37,818 INFO Plug a; state on
+2024-05-02 14:34:37,822 INFO Plug a; state on
+2024-05-02 14:34:37,829 INFO Plug a; state on
+2024-05-02 14:34:37,831 INFO Plug a; state off
+2024-05-02 14:34:37,835 INFO Plug a; state on
+2024-05-02 14:34:37,846 INFO Plug xy.153; state on
+2024-05-02 14:34:37,851 INFO Plug a; state off
+2024-05-02 14:34:37,854 INFO Plug a; state on
+2024-05-02 14:34:37,859 INFO Plug a; state on
+2024-05-02 14:34:37,863 INFO Plug a; state off
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

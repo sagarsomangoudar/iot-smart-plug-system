@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>App.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">iot_ece448</a> &gt; <a href="index.source.html" class="el_package">ece448.iot_hub</a> &gt; <span class="el_source">App.java</span></div><h1>App.java</h1><pre class="source lang-java linenums">package ece448.iot_hub;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.Bean;
+import org.springframework.core.env.Environment;
+
+@SpringBootApplication
+public class App {
+	@Autowired
+<span class="nc" id="L13">	public App(Environment env) throws Exception {</span>
+<span class="nc" id="L14">	}</span>
+
+	@Bean(destroyMethod = &quot;close&quot;)	
+	public MqttController mqtt(Environment env) throws Exception{
+<span class="nc" id="L18">		String broker = env.getProperty(&quot;mqtt.broker&quot;);		</span>
+<span class="nc" id="L19">		String clientId = env.getProperty(&quot;mqtt.clientId&quot;);		</span>
+<span class="nc" id="L20">		String topicPrefix = env.getProperty(&quot;mqtt.topicPrefix&quot;);		</span>
+<span class="nc" id="L21">		MqttController mqtt = new MqttController(broker, clientId, topicPrefix);		</span>
+<span class="nc" id="L22">		mqtt.start();		</span>
+<span class="nc" id="L23">		logger.info(&quot;MqttClient {} connected: {}&quot;, clientId, broker);		</span>
+<span class="nc" id="L24">		return mqtt;	</span>
+	}	
+<span class="nc" id="L26">private static final Logger logger = LoggerFactory.getLogger(App.class);</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.11.202310140853</span></div></body></html>

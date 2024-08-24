@@ -1,0 +1,230 @@
+k2024-05-02 14:34:36,594 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+{2024-05-02 14:34:36,630 INFO Group G1: action toggle, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+42024-05-02 14:34:36,633 INFO  Plug p Publishing... 
+Z2024-05-02 14:34:36,640 ERROR MqttCtl iot_hub: iot_ece448/action/p/toggle fail to publish
+/2024-05-02 14:34:36,642 INFO  Plug p Published
+42024-05-02 14:34:36,644 INFO  Plug q Publishing... 
+Z2024-05-02 14:34:36,645 ERROR MqttCtl iot_hub: iot_ece448/action/q/toggle fail to publish
+/2024-05-02 14:34:36,647 INFO  Plug q Published
+k2024-05-02 14:34:36,647 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+Ñ2024-05-02 14:34:36,648 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+82024-05-02 14:34:36,651 INFO Group B: created [x, y, z]
+C2024-05-02 14:34:36,655 INFO Group details {members=[], name=GP1}:
+(2024-05-02 14:34:36,658 INFO Groups: []
+(2024-05-02 14:34:36,661 INFO Groups: []
+.2024-05-02 14:34:36,663 INFO Group B: removed
+k2024-05-02 14:34:36,665 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+w2024-05-02 14:34:36,667 INFO Group G1: action on, [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+42024-05-02 14:34:36,671 INFO  Plug p Publishing... 
+V2024-05-02 14:34:36,674 ERROR MqttCtl iot_hub: iot_ece448/action/p/on fail to publish
+/2024-05-02 14:34:36,676 INFO  Plug p Published
+42024-05-02 14:34:36,679 INFO  Plug q Publishing... 
+V2024-05-02 14:34:36,682 ERROR MqttCtl iot_hub: iot_ece448/action/q/on fail to publish
+/2024-05-02 14:34:36,686 INFO  Plug q Published
+k2024-05-02 14:34:36,691 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+Ñ2024-05-02 14:34:36,694 INFO Group details {members=[{name=p, state=null, power=null}, {name=q, state=null, power=null}], name=G1}:
+k2024-05-02 14:34:36,695 INFO PlugMap: [{name=p, state=null, power=null}, {name=q, state=null, power=null}]
+	A2024-05-02 14:34:36,698 INFO Group details {members=[], name=A}:
+	+2024-05-02 14:34:36,701 INFO Group A: null
+	{members=[], name=A}
+
+k2024-05-02 14:34:36,710 INFO PlugMap: [{name=x, state=null, power=null}, {name=y, state=null, power=null}]
+
+Ö2024-05-02 14:34:36,712 INFO Group details {members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}:
+
+Ä2024-05-02 14:34:36,723 INFO Groups: [{members=[{name=x, state=null, power=null}, {name=y, state=null, power=null}], name=GP2}]
+I2024-05-02 14:34:36,736 INFO PlugMap: [{name=w, state=null, power=null}]
+[2024-05-02 14:34:36,737 INFO Group osf.86d: action off, [{name=w, state=null, power=null}]
+42024-05-02 14:34:36,739 INFO  Plug w Publishing... 
+W2024-05-02 14:34:36,740 ERROR MqttCtl iot_hub: iot_ece448/action/w/off fail to publish
+/2024-05-02 14:34:36,741 INFO  Plug w Published
+I2024-05-02 14:34:36,741 INFO PlugMap: [{name=w, state=null, power=null}]
+g2024-05-02 14:34:36,741 INFO Group details {members=[{name=w, state=null, power=null}], name=osf.86d}:
+H2024-05-02 14:34:37,513 INFO MqttCtl iot_hub: tcp://127.0.0.1 connected
+;2024-05-02 14:34:37,520 INFO MqttCtl iot_hub: disconnected
+c2024-05-02 14:34:37,541 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/plug1/on fail to publish
+M2024-05-02 14:34:37,544 INFO plug plug1: {name=plug1, state=off, power=null}
+_2024-05-02 14:34:37,548 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/p/on fail to publish
+c2024-05-02 14:34:37,549 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/a/toggle fail to publish
+E2024-05-02 14:34:37,551 INFO plug a: {name=a, state=off, power=null}
+`2024-05-02 14:34:37,552 ERROR MqttCtl iot_hub: grade_p4/iot_ece448/action/p/off fail to publish
+D2024-05-02 14:34:37,553 INFO plug p: {name=p, state=on, power=null}
+E2024-05-02 14:34:37,561 INFO plugss a: {name=a, state=on, power=837}
+52024-05-02 14:34:37,571 INFO HTTPCmd /a: {action=on}
+.2024-05-02 14:34:37,572 INFO Plug a; state on
+62024-05-02 14:34:37,578 INFO HTTPCmd /a: {action=off}
+/2024-05-02 14:34:37,579 INFO Plug a; state off
+72024-05-02 14:34:37,581 INFO HTTPCmd /a: {action=null}
+ 62024-05-02 14:34:37,582 INFO HTTPCmd /: {action=null}
+!92024-05-02 14:34:37,584 INFO HTTPCmd /a: {action=toggle}
+!.2024-05-02 14:34:37,585 INFO Plug a; state on
+"=2024-05-02 14:34:37,587 INFO HTTPCmd /b.100: {action=toggle}
+"22024-05-02 14:34:37,587 INFO Plug b.100; state on
+#<2024-05-02 14:34:37,588 INFO HTTPCmd /b.100: {action=hhhhh}
+$=2024-05-02 14:34:37,590 INFO HTTPCmd hafgddga: {action=null}
+%;2024-05-02 14:34:37,591 INFO HTTPCmd /b.100: {action=asdg}
+&72024-05-02 14:34:37,595 INFO HTTPCmd /b.100: {action=}
+('*2024-05-02 14:34:37,606 INFO MqttCmd null
+('l2024-05-02 14:34:37,607 ERROR MqttCmdCannot invoke "String.length()" because "this.topicPrefix" is null: {}
+('cjava.lang.NullPointerException: Cannot invoke "String.length()" because "this.topicPrefix" is null
+('D	at ece448.iot_sim.MqttCommands.handleMessage(MqttCommands.java:33)
+('H	at ece448.iot_sim.MqttCommandsTests.test10(MqttCommandsTests.java:112)
+('S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+('e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+('m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+('?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+('Y	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+('X	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+('W	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+('V	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+('E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+('Y	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+('B	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+('W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+('V	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+('@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+('D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+('F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+('D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+('E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+('E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+('>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+('u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+('o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+('o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+('ä	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+('t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+('S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+('e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+('m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+('?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+('Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+('Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+('i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+('x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+('C	at jdk.proxy2/jdk.proxy2.$Proxy5.processTestClass(Unknown Source)
+('W	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+('n	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+('Y	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+('X	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+('j	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+('Ç	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+('Å	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+(']	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+('^	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+()=2024-05-02 14:34:37,621 INFO MqttCmd ajgdfd/sdfgds/agsd/n/sb
+(*:2024-05-02 14:34:37,626 INFO MqttCmd /action/b.100/toggle
+(+@2024-05-02 14:34:37,631 INFO MqttCmd iot_ece448/action/b.100/on
+(+22024-05-02 14:34:37,633 INFO Plug b.100; state on
+(,@2024-05-02 14:34:37,649 INFO MqttCmd iot_ece448/action/dddd/off
+(,22024-05-02 14:34:37,651 INFO Plug dddd; state off
+(-=2024-05-02 14:34:37,653 INFO MqttCmd iot_ece448/action/a/off
+(.C2024-05-02 14:34:37,655 INFO MqttCmd iot_ece448/action/dddd/toggle
+(.12024-05-02 14:34:37,656 INFO Plug dddd; state on
+(/<2024-05-02 14:34:37,762 INFO MqttCmd iot_ece448/action/#/on
+(/r2024-05-02 14:34:37,765 ERROR MqttCmdCannot invoke "ece448.iot_sim.PlugSim.switchOn()" because "plug" is null: {}
+(/ijava.lang.NullPointerException: Cannot invoke "ece448.iot_sim.PlugSim.switchOn()" because "plug" is null
+(/D	at ece448.iot_sim.MqttCommands.handleMessage(MqttCommands.java:43)
+(/F	at ece448.iot_sim.MqttCommandsTests.test7(MqttCommandsTests.java:81)
+(/S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+(/e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+(/m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+(/?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+(/Y	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+(/X	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+(/W	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+(/V	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+(/E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+(/Y	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+(/B	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+(/W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+(/V	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+(/@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+(/D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+(/F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+(/D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+(/E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+(/E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+(/>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+(/u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+(/o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+(/o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+(/ä	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+(/t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+(/S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+(/e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+(/m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+(/?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+(/Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+(/Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+(/i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+(/x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+(/C	at jdk.proxy2/jdk.proxy2.$Proxy5.processTestClass(Unknown Source)
+(/W	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+(/n	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+(/Y	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+(/X	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+(/j	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+(/Ç	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+(/Å	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+(/]	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+(/^	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+(0;2024-05-02 14:34:37,773 INFO MqttCmd iot_ece448/action/a/+
+(1?2024-05-02 14:34:37,775 INFO MqttCmd iot_ece448/action//toggle
+(1p2024-05-02 14:34:37,775 ERROR MqttCmdCannot invoke "ece448.iot_sim.PlugSim.toggle()" because "plug" is null: {}
+(1gjava.lang.NullPointerException: Cannot invoke "ece448.iot_sim.PlugSim.toggle()" because "plug" is null
+(1D	at ece448.iot_sim.MqttCommands.handleMessage(MqttCommands.java:49)
+(1G	at ece448.iot_sim.MqttCommandsTests.test9(MqttCommandsTests.java:102)
+(1S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+(1e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+(1m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+(1?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+(1Y	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+(1X	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+(1W	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+(1V	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+(1E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+(1Y	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+(1B	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+(1W	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+(1V	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+(1@	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+(1D	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+(1F	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+(1D	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+(1E	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+(1E	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+(1>	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+(1u	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:112)
+(1o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+(1o	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:40)
+(1ä	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:60)
+(1t	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:52)
+(1S	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+(1e	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+(1m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+(1?	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+(1Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:36)
+(1Y	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+(1i	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:33)
+(1x	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:94)
+(1C	at jdk.proxy2/jdk.proxy2.$Proxy5.processTestClass(Unknown Source)
+(1W	at org.gradle.api.internal.tasks.testing.worker.TestWorker$2.run(TestWorker.java:176)
+(1n	at org.gradle.api.internal.tasks.testing.worker.TestWorker.executeAndMaintainThreadName(TestWorker.java:129)
+(1Y	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:100)
+(1X	at org.gradle.api.internal.tasks.testing.worker.TestWorker.execute(TestWorker.java:60)
+(1j	at org.gradle.process.internal.worker.child.ActionExecutionWorker.execute(ActionExecutionWorker.java:56)
+(1Ç	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:113)
+(1Å	at org.gradle.process.internal.worker.child.SystemApplicationClassLoaderWorker.call(SystemApplicationClassLoaderWorker.java:65)
+(1]	at worker.org.gradle.process.internal.worker.GradleWorkerMain.run(GradleWorkerMain.java:69)
+(1^	at worker.org.gradle.process.internal.worker.GradleWorkerMain.main(GradleWorkerMain.java:74)
+34.2024-05-02 14:34:37,818 INFO Plug a; state on
+35.2024-05-02 14:34:37,822 INFO Plug a; state on
+36.2024-05-02 14:34:37,829 INFO Plug a; state on
+37/2024-05-02 14:34:37,831 INFO Plug a; state off
+38.2024-05-02 14:34:37,835 INFO Plug a; state on
+3:32024-05-02 14:34:37,846 INFO Plug xy.153; state on
+3;/2024-05-02 14:34:37,851 INFO Plug a; state off
+3<.2024-05-02 14:34:37,854 INFO Plug a; state on
+3=.2024-05-02 14:34:37,859 INFO Plug a; state on
+3=/2024-05-02 14:34:37,863 INFO Plug a; state off

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ece448.iot_sim.HTTPSCommandsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2024-05-02T19:34:37" hostname="ECE448" time="0.029">
+  <properties/>
+  <testcase name="test01" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.009"/>
+  <testcase name="test02" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.003"/>
+  <testcase name="test03" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.001"/>
+  <testcase name="test04" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.001"/>
+  <testcase name="test05" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.003"/>
+  <testcase name="test06" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.001"/>
+  <testcase name="test07" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.0"/>
+  <testcase name="test08" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.001"/>
+  <testcase name="test09" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.004"/>
+  <testcase name="test10" classname="ece448.iot_sim.HTTPSCommandsTests" time="0.003"/>
+  <system-out><![CDATA[2024-05-02 14:34:37,571 INFO HTTPCmd /a: {action=on}
+2024-05-02 14:34:37,572 INFO Plug a; state on
+2024-05-02 14:34:37,578 INFO HTTPCmd /a: {action=off}
+2024-05-02 14:34:37,579 INFO Plug a; state off
+2024-05-02 14:34:37,581 INFO HTTPCmd /a: {action=null}
+2024-05-02 14:34:37,582 INFO HTTPCmd /: {action=null}
+2024-05-02 14:34:37,584 INFO HTTPCmd /a: {action=toggle}
+2024-05-02 14:34:37,585 INFO Plug a; state on
+2024-05-02 14:34:37,587 INFO HTTPCmd /b.100: {action=toggle}
+2024-05-02 14:34:37,587 INFO Plug b.100; state on
+2024-05-02 14:34:37,588 INFO HTTPCmd /b.100: {action=hhhhh}
+2024-05-02 14:34:37,590 INFO HTTPCmd hafgddga: {action=null}
+2024-05-02 14:34:37,591 INFO HTTPCmd /b.100: {action=asdg}
+2024-05-02 14:34:37,595 INFO HTTPCmd /b.100: {action=}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
